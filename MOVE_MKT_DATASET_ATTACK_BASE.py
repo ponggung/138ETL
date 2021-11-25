@@ -1,6 +1,6 @@
 # Databricks notebook source
 from FETetlutils import TD_CONN,TXDATE
-con = TD_CONN(host="10.68.64.81",spark=spark,dbutils=dbutils) #ifx
+con = TD_CONN(host="",spark=spark,dbutils=dbutils) #ifx
 tx = TXDATE()
     
 source_db_name = "MDS_MART"
